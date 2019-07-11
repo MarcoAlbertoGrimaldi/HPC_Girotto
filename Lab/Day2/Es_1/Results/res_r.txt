@@ -1,6 +1,246 @@
+elapsed time: 4.03554
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03646
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03601
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03575
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03577
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03541
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.0358
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03512
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03584
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03598
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.0362
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03595
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03615
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.0372
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.0356
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03592
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03509
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.0354
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03533
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 4.03645
+pi approximation with 2048000000 iteration is:3.141592652
 
+elapsed time: 2.04291
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.03353
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.05887
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.05396
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.03532
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.05141
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.05603
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.04543
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.04111
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.0601
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.0317
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.04461
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.0409
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.05134
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.04651
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.03804
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.0376
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.04318
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.04391
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 2.04305
+pi approximation with 2048000000 iteration is:3.141592652
 
+elapsed time: 1.05002
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.06036
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05739
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.04042
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.057
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05235
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05304
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05346
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05076
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05901
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.06131
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05162
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05166
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.0522
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05398
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05116
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05107
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.05815
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.0537
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 1.04958
+pi approximation with 2048000000 iteration is:3.141592652
 
+elapsed time: 0.57019
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.562495
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.564896
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.55846
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.559906
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.557746
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.562707
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.557486
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.558589
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.564764
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.562717
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.557696
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.55828
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.562815
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.573751
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.557152
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.559169
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.557982
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.558132
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.556308
+pi approximation with 2048000000 iteration is:3.141592652
 
+elapsed time: 0.312271
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.307519
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.305618
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.314521
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.306082
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.312473
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.30054
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.339663
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.302145
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.313264
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.306541
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.309002
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.303419
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.305638
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.300283
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.305494
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.301384
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.365359
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.30494
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.307216
+pi approximation with 2048000000 iteration is:3.141592652
 
+elapsed time: 0.248201
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.419181
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.466532
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.25341
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.253432
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.40947
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.37181
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.240555
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.451536
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.337814
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.383312
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.254232
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.248614
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.325656
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.254263
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.335329
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.392657
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.253206
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.455849
+pi approximation with 2048000000 iteration is:3.141592652
+elapsed time: 0.267306
+pi approximation with 2048000000 iteration is:3.141592652
 
