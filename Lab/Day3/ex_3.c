@@ -25,8 +25,9 @@ int main( int argc, char * argv[] ){
     double h_2 = h/2;
     long unsigned int frac = n/npes;
     double approx = 0;
+    unsigned long int j = 0;
    
-    for(long int j = rank*frac; j < (rank+1)*frac; ++j){
+    for(j = rank*frac; j < (rank+1)*frac; ++j){
         x_j = a + 2 * j * h_2 + h_2;
         approx += 1/(1 + x_j*x_j);
     }
