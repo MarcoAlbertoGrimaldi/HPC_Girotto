@@ -21,7 +21,7 @@ void print_usage( int * a, int N, int nthreads ) {
 
 int main() {
 
-  const int N = 120;
+  const int N = 250;
   int a[N];
   int thread_id = 0;
 
