@@ -4,6 +4,8 @@
 
 cd $PBS_O_WORKDIR
 
+module load intel/18.4
+
 if [ -f Results/res_* ]; then rm Results/res_*; fi
 
 for i in 1 2 4 8 16 20
