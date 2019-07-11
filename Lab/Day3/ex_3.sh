@@ -10,5 +10,9 @@ if [ -f res_* ]; then rm res_*; fi
 
 for i in 1 2 4 8 16 24 32 40
     do
-	mpirun -np $i ./ex_3.x >> res.txt
+    for j in {1..19}
+        do
+	    mpirun -np $i ./ex_3.x >> res.txt
+        done
+    echo "" >> res.txt
     done
