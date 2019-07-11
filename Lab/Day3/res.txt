@@ -1,0 +1,559 @@
+cn02-33.19366ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[48766,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-33.19370ipath_userinit: assign_context command failed: Network is down
+cn02-33.19371ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[48754,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-33.19376ipath_userinit: assign_context command failed: Network is down
+cn02-33.19379ipath_userinit: assign_context command failed: Network is down
+cn02-33.19378ipath_userinit: assign_context command failed: Network is down
+cn02-33.19377ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[48756,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-33.19386ipath_userinit: assign_context command failed: Network is down
+cn02-33.19388ipath_userinit: assign_context command failed: Network is down
+cn02-33.19387ipath_userinit: assign_context command failed: Network is down
+cn02-33.19389ipath_userinit: assign_context command failed: Network is down
+cn02-33.19391ipath_userinit: assign_context command failed: Network is down
+cn02-33.19392ipath_userinit: assign_context command failed: Network is down
+cn02-33.19394ipath_userinit: assign_context command failed: Network is down
+cn02-33.19395ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[48738,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-33.19406ipath_userinit: assign_context command failed: Network is down
+cn02-33.19404ipath_userinit: assign_context command failed: Network is down
+cn02-33.19405ipath_userinit: assign_context command failed: Network is down
+cn02-33.19410ipath_userinit: assign_context command failed: Network is down
+cn02-33.19416ipath_userinit: assign_context command failed: Network is down
+cn02-33.19415ipath_userinit: assign_context command failed: Network is down
+cn02-33.19407ipath_userinit: assign_context command failed: Network is down
+cn02-33.19411ipath_userinit: assign_context command failed: Network is down
+cn02-33.19408ipath_userinit: assign_context command failed: Network is down
+cn02-33.19413ipath_userinit: assign_context command failed: Network is down
+cn02-33.19418ipath_userinit: assign_context command failed: Network is down
+cn02-33.19419ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[48656,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-33.19430ipath_userinit: assign_context command failed: Network is down
+cn02-33.19432ipath_userinit: assign_context command failed: Network is down
+cn02-33.19431ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+cn02-33.19435ipath_userinit: assign_context command failed: Network is down
+cn02-33.19433ipath_userinit: assign_context command failed: Network is down
+cn02-33.19436ipath_userinit: assign_context command failed: Network is down
+cn02-33.19438ipath_userinit: assign_context command failed: Network is down
+cn02-33.19439ipath_userinit: assign_context command failed: Network is down
+cn02-33.19441ipath_userinit: assign_context command failed: Network is down
+cn02-33.19442ipath_userinit: assign_context command failed: Network is down
+cn02-33.19444ipath_userinit: assign_context command failed: Network is down
+cn02-33.19445ipath_userinit: assign_context command failed: Network is down
+cn02-33.19447ipath_userinit: assign_context command failed: Network is down
+cn02-33.19450ipath_userinit: assign_context command failed: Network is down
+cn02-33.19448ipath_userinit: assign_context command failed: Network is down
+cn02-33.19451ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[48702,1],5]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-33.19464ipath_userinit: assign_context command failed: Network is down
+cn02-33.19465ipath_userinit: assign_context command failed: Network is down
+cn02-33.19466ipath_userinit: assign_context command failed: Network is down
+cn02-33.19467ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+cn02-33.19471ipath_userinit: assign_context command failed: Network is down
+cn02-33.19470ipath_userinit: assign_context command failed: Network is down
+cn02-33.19468ipath_userinit: assign_context command failed: Network is down
+cn02-33.19473ipath_userinit: assign_context command failed: Network is down
+cn02-33.19474ipath_userinit: assign_context command failed: Network is down
+cn02-33.19476ipath_userinit: assign_context command failed: Network is down
+cn02-33.19477ipath_userinit: assign_context command failed: Network is down
+cn02-33.19478ipath_userinit: assign_context command failed: Network is down
+cn02-33.19480ipath_userinit: assign_context command failed: Network is down
+cn02-33.19482ipath_userinit: assign_context command failed: Network is down
+cn02-33.19481ipath_userinit: assign_context command failed: Network is down
+cn02-33.19484ipath_userinit: assign_context command failed: Network is down
+cn02-33.19486ipath_userinit: assign_context command failed: Network is down
+cn02-33.19489ipath_userinit: assign_context command failed: Network is down
+cn02-33.19487ipath_userinit: assign_context command failed: Network is down
+cn02-33.19490ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[47580,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-36.22861ipath_userinit: assign_context command failed: Network is down
+cn02-36.22862ipath_userinit: assign_context command failed: Network is down
+cn02-36.22863ipath_userinit: assign_context command failed: Network is down
+cn02-36.22864ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+cn02-33.19506ipath_userinit: assign_context command failed: Network is down
+cn02-33.19507ipath_userinit: assign_context command failed: Network is down
+cn02-33.19511ipath_userinit: assign_context command failed: Network is down
+cn02-33.19510ipath_userinit: assign_context command failed: Network is down
+cn02-33.19509ipath_userinit: assign_context command failed: Network is down
+cn02-33.19514ipath_userinit: assign_context command failed: Network is down
+cn02-33.19512ipath_userinit: assign_context command failed: Network is down
+cn02-33.19515ipath_userinit: assign_context command failed: Network is down
+cn02-33.19517ipath_userinit: assign_context command failed: Network is down
+cn02-33.19518ipath_userinit: assign_context command failed: Network is down
+cn02-33.19520ipath_userinit: assign_context command failed: Network is down
+cn02-33.19521ipath_userinit: assign_context command failed: Network is down
+cn02-33.19523ipath_userinit: assign_context command failed: Network is down
+cn02-33.19524ipath_userinit: assign_context command failed: Network is down
+cn02-33.19526ipath_userinit: assign_context command failed: Network is down
+cn02-33.19527ipath_userinit: assign_context command failed: Network is down
+cn02-33.19531ipath_userinit: assign_context command failed: Network is down
+cn02-33.19528ipath_userinit: assign_context command failed: Network is down
+cn02-33.19530ipath_userinit: assign_context command failed: Network is down
+cn02-33.19533ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[47594,1],20]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-36.22870ipath_userinit: assign_context command failed: Network is down
+cn02-36.22871ipath_userinit: assign_context command failed: Network is down
+cn02-36.22872ipath_userinit: assign_context command failed: Network is down
+cn02-36.22873ipath_userinit: assign_context command failed: Network is down
+cn02-36.22874ipath_userinit: assign_context command failed: Network is down
+cn02-36.22875ipath_userinit: assign_context command failed: Network is down
+cn02-36.22877ipath_userinit: assign_context command failed: Network is down
+cn02-33.19554ipath_userinit: assign_context command failed: Network is down
+cn02-33.19548ipath_userinit: assign_context command failed: Network is down
+cn02-36.22878ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+cn02-33.19552ipath_userinit: assign_context command failed: Network is down
+cn02-33.19550ipath_userinit: assign_context command failed: Network is down
+cn02-33.19551ipath_userinit: assign_context command failed: Network is down
+cn02-33.19549ipath_userinit: assign_context command failed: Network is down
+cn02-33.19557ipath_userinit: assign_context command failed: Network is down
+cn02-33.19571ipath_userinit: assign_context command failed: Network is down
+cn02-33.19566ipath_userinit: assign_context command failed: Network is down
+cn02-33.19564ipath_userinit: assign_context command failed: Network is down
+cn02-33.19568ipath_userinit: assign_context command failed: Network is down
+cn02-33.19555ipath_userinit: assign_context command failed: Network is down
+cn02-33.19560ipath_userinit: assign_context command failed: Network is down
+cn02-33.19563ipath_userinit: assign_context command failed: Network is down
+cn02-33.19559ipath_userinit: assign_context command failed: Network is down
+cn02-33.19573ipath_userinit: assign_context command failed: Network is down
+cn02-33.19575ipath_userinit: assign_context command failed: Network is down
+cn02-33.19577ipath_userinit: assign_context command failed: Network is down
+cn02-33.19579ipath_userinit: assign_context command failed: Network is down
+cn02-33.19581ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[47488,1],20]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-33.19592ipath_userinit: assign_context command failed: Network is down
+cn02-33.19593ipath_userinit: assign_context command failed: Network is down
+cn02-33.19594ipath_userinit: assign_context command failed: Network is down
+cn02-33.19596ipath_userinit: assign_context command failed: Network is down
+cn02-33.19590ipath_userinit: assign_context command failed: Network is down
+cn02-33.19591ipath_userinit: assign_context command failed: Network is down
+cn02-33.19598ipath_userinit: assign_context command failed: Network is down
+cn02-36.22887ipath_userinit: assign_context command failed: Network is down
+cn02-36.22889ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+cn02-36.22890ipath_userinit: assign_context command failed: Network is down
+cn02-36.22891ipath_userinit: assign_context command failed: Network is down
+cn02-36.22888ipath_userinit: assign_context command failed: Network is down
+cn02-36.22892ipath_userinit: assign_context command failed: Network is down
+cn02-36.22894ipath_userinit: assign_context command failed: Network is down
+cn02-36.22896ipath_userinit: assign_context command failed: Network is down
+cn02-36.22897ipath_userinit: assign_context command failed: Network is down
+cn02-36.22900ipath_userinit: assign_context command failed: Network is down
+cn02-36.22902ipath_userinit: assign_context command failed: Network is down
+cn02-36.22899ipath_userinit: assign_context command failed: Network is down
+cn02-33.19611ipath_userinit: assign_context command failed: Network is down
+cn02-33.19607ipath_userinit: assign_context command failed: Network is down
+cn02-33.19603ipath_userinit: assign_context command failed: Network is down
+cn02-33.19609ipath_userinit: assign_context command failed: Network is down
+cn02-33.19600ipath_userinit: assign_context command failed: Network is down
+cn02-33.19605ipath_userinit: assign_context command failed: Network is down
+cn02-33.19601ipath_userinit: assign_context command failed: Network is down
+cn02-33.19617ipath_userinit: assign_context command failed: Network is down
+cn02-33.19613ipath_userinit: assign_context command failed: Network is down
+cn02-33.19615ipath_userinit: assign_context command failed: Network is down
+cn02-33.19618ipath_userinit: assign_context command failed: Network is down
+cn02-33.19621ipath_userinit: assign_context command failed: Network is down
+cn02-33.19623ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[47454,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-36.22912ipath_userinit: assign_context command failed: Network is down
+cn02-36.22913ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+cn02-33.19632ipath_userinit: assign_context command failed: Network is down
+cn02-33.19633ipath_userinit: assign_context command failed: Network is down
+cn02-33.19635ipath_userinit: assign_context command failed: Network is down
+cn02-33.19634ipath_userinit: assign_context command failed: Network is down
+cn02-33.19636ipath_userinit: assign_context command failed: Network is down
+cn02-33.19638ipath_userinit: assign_context command failed: Network is down
+cn02-36.22914ipath_userinit: assign_context command failed: Network is down
+cn02-36.22917ipath_userinit: assign_context command failed: Network is down
+cn02-36.22915ipath_userinit: assign_context command failed: Network is down
+cn02-36.22916ipath_userinit: assign_context command failed: Network is down
+cn02-36.22919ipath_userinit: assign_context command failed: Network is down
+cn02-36.22921ipath_userinit: assign_context command failed: Network is down
+cn02-36.22922ipath_userinit: assign_context command failed: Network is down
+cn02-36.22924ipath_userinit: assign_context command failed: Network is down
+cn02-36.22925ipath_userinit: assign_context command failed: Network is down
+cn02-36.22927ipath_userinit: assign_context command failed: Network is down
+cn02-36.22928ipath_userinit: assign_context command failed: Network is down
+cn02-36.22929ipath_userinit: assign_context command failed: Network is down
+cn02-36.22931ipath_userinit: assign_context command failed: Network is down
+cn02-36.22932ipath_userinit: assign_context command failed: Network is down
+cn02-33.19654ipath_userinit: assign_context command failed: Network is down
+cn02-33.19650ipath_userinit: assign_context command failed: Network is down
+cn02-33.19640ipath_userinit: assign_context command failed: Network is down
+cn02-33.19643ipath_userinit: assign_context command failed: Network is down
+cn02-33.19648ipath_userinit: assign_context command failed: Network is down
+cn02-33.19652ipath_userinit: assign_context command failed: Network is down
+cn02-33.19646ipath_userinit: assign_context command failed: Network is down
+cn02-33.19641ipath_userinit: assign_context command failed: Network is down
+cn02-33.19644ipath_userinit: assign_context command failed: Network is down
+cn02-33.19658ipath_userinit: assign_context command failed: Network is down
+cn02-33.19656ipath_userinit: assign_context command failed: Network is down
+cn02-33.19660ipath_userinit: assign_context command failed: Network is down
+cn02-33.19664ipath_userinit: assign_context command failed: Network is down
+cn02-33.19662ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[47476,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+cn02-33.19674ipath_userinit: assign_context command failed: Network is down
+cn02-36.22945ipath_userinit: assign_context command failed: Network is down
+cn02-33.19678ipath_userinit: assign_context command failed: Network is down
+cn02-33.19675ipath_userinit: assign_context command failed: Network is down
+cn02-33.19676ipath_userinit: assign_context command failed: Network is down
+cn02-33.19677ipath_userinit: assign_context command failed: Network is down
+cn02-36.22946ipath_userinit: assign_context command failed: Network is down
+cn02-36.22947ipath_userinit: assign_context command failed: Network is down
+cn02-36.22948ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+PSM was unable to open an endpoint. Please make sure that the network link is
+active on the node and the hardware is functioning. 
+
+  Error: Could not detect network connectivity
+--------------------------------------------------------------------------
+cn02-36.22949ipath_userinit: assign_context command failed: Network is down
+cn02-33.19688ipath_userinit: assign_context command failed: Network is down
+cn02-36.22955ipath_userinit: assign_context command failed: Network is down
+cn02-36.22952ipath_userinit: assign_context command failed: Network is down
+cn02-36.22954ipath_userinit: assign_context command failed: Network is down
+cn02-33.19685ipath_userinit: assign_context command failed: Network is down
+cn02-36.22950ipath_userinit: assign_context command failed: Network is down
+cn02-33.19682ipath_userinit: assign_context command failed: Network is down
+cn02-36.22957ipath_userinit: assign_context command failed: Network is down
+cn02-33.19696ipath_userinit: assign_context command failed: Network is down
+cn02-36.22958ipath_userinit: assign_context command failed: Network is down
+cn02-33.19692ipath_userinit: assign_context command failed: Network is down
+cn02-36.22960ipath_userinit: assign_context command failed: Network is down
+cn02-36.22961ipath_userinit: assign_context command failed: Network is down
+cn02-36.22963ipath_userinit: assign_context command failed: Network is down
+cn02-36.22964ipath_userinit: assign_context command failed: Network is down
+cn02-36.22966ipath_userinit: assign_context command failed: Network is down
+cn02-36.22971ipath_userinit: assign_context command failed: Network is down
+cn02-36.22968ipath_userinit: assign_context command failed: Network is down
+cn02-36.22969ipath_userinit: assign_context command failed: Network is down
+cn02-33.19694ipath_userinit: assign_context command failed: Network is down
+cn02-33.19705ipath_userinit: assign_context command failed: Network is down
+cn02-33.19698ipath_userinit: assign_context command failed: Network is down
+cn02-33.19690ipath_userinit: assign_context command failed: Network is down
+cn02-33.19702ipath_userinit: assign_context command failed: Network is down
+cn02-33.19687ipath_userinit: assign_context command failed: Network is down
+cn02-33.19680ipath_userinit: assign_context command failed: Network is down
+cn02-33.19683ipath_userinit: assign_context command failed: Network is down
+cn02-33.19700ipath_userinit: assign_context command failed: Network is down
+cn02-33.19706ipath_userinit: assign_context command failed: Network is down
+cn02-36.22973ipath_userinit: assign_context command failed: Network is down
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  PML add procs failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[47362,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
