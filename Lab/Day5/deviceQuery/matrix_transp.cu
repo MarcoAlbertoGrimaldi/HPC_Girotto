@@ -6,9 +6,9 @@
 
 __global__ void tra( int *a, int *b) {
         int i = blockIdx.x/4;
-        int j = (blockIdx.x%4) * blockDim + threadIdx.x;
+        int j = (blockIdx.x%4) * blockDim.x + threadIdx.x;
     
-       b[i*2048+j] = a[j*2048+i];
+        b[i*2048+j] = a[j*2048+i];
 }
 
 void random_ints(int *p, int n) {
@@ -20,9 +20,9 @@ void random_ints(int *p, int n) {
 
 int main( void ) {
     int *a, *b, *c;               // host copies of a, b, c
-    int *dev_a, *dev_b, *dev_c;   // device copies of a, b, c
+    int *dev_a, *dev_b;   // device copies of a, b, c
     int size = N * sizeof( int ); // we need space for N   									// integers
-    int i;
+    int i, j;
 
     // allocate device copies of a, b
     cudaMalloc( (void**)&dev_a, size );
@@ -39,23 +39,22 @@ int main( void ) {
    cudaMemcpy( dev_b, b, size, cudaMemcpyHostToDevice );
 
     // launch an rev() kernel with N threads
-    rev<<< N/THREAD_PER_BLOCK, THREAD_PER_BLOCK >>>( dev_a, dev_b);
+    tra<<< N/THREAD_PER_BLOCK, THREAD_PER_BLOCK >>>( dev_a, dev_b);
 
     // copy device result back to host copy of c
    cudaMemcpy( b, dev_b, size,   cudaMemcpyDeviceToHost );
 
     for(i=0; i<2048; i++) {
-        for(j=0; j<2048; j++0) {
+        for(j=0; j<2048; j++) {
             c[i*2048+j] = a[j*2048+i];
-            if(b[i]!=c[i]) {
-                printf("error: expected %d, got %d!\n",c[i], b[i]);
+            if(b[i*2048+j]!=c[i*2048+j]) {
+                printf("error: expected %d, got %d!\n",c[i*2048+j], b[i*2048+j]);
                 break;
             }
         }
-        if(i==N) {
-            printf("correct!\n");
-         }  
     }
+
+    if(i==N) {printf("correct!\n");}
  
     free( a ); free( b ); free( c );
     cudaFree( dev_a );

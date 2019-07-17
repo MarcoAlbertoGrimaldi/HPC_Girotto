@@ -17,9 +17,9 @@ void random_ints(int *p, int n) {
 }
 
 int main( void ) {
-    int *a, *b, *c;               // host copies of a, b, c
-    int *dev_a, *dev_b;  // device copies of a, b, c
-    int size = N * sizeof( int ); // we need space for N   									// integers
+    int *a, *b, *c;                 // host copies of a, b, c
+    int *dev_a, *dev_b;             // device copies of a, b, c
+    int size = N * sizeof( int );   // we need space for N 
     int i;
 
     // allocate device copies of a, b
@@ -36,7 +36,7 @@ int main( void ) {
    cudaMemcpy( dev_a, a, size, cudaMemcpyHostToDevice );
    cudaMemcpy( dev_b, b, size, cudaMemcpyHostToDevice );
 
-    // launch an add() kernel with N threads
+    // launch an rev() kernel with N threads
     rev<<< N/THREAD_PER_BLOCK, THREAD_PER_BLOCK >>>( dev_a, dev_b);
 
     // copy device result back to host copy of c
