@@ -1,0 +1,24 @@
+block: 1 x 1
+milliseconds: 121.643394
+BandN: 4.413482 GB/s 
+
+block: 2 x 2
+milliseconds: 33.602879
+BandN: 15.976932 GB/s 
+
+block: 4 x 4
+milliseconds: 11.920960
+BandN: 45.035876 GB/s 
+
+block: 8 x 8
+milliseconds: 10.495712
+BandN: 51.151452 GB/s 
+
+block: 16 x 16
+milliseconds: 11.764288
+BandN: 45.635648 GB/s 
+
+block: 32 x 32
+milliseconds: 11.578912
+BandN: 46.366268 GB/s 
+

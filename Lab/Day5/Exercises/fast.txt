@@ -1,0 +1,68 @@
+block: 1 x 1
+milliseconds: 143.449722
+Bandwidth: 3.742572 GB/s 
+
+block: 2 x 2
+milliseconds: 37.468224
+Bandwidth: 14.328699 GB/s 
+
+block: 4 x 4
+milliseconds: 12.754880
+Bandwidth: 42.091412 GB/s 
+
+block: 8 x 8
+milliseconds: 9.550752
+Bandwidth: 56.212424 GB/s 
+
+block: 16 x 16
+milliseconds: 5.706368
+Bandwidth: 94.082768 GB/s 
+
+block: 32 x 32
+milliseconds: 4.288480
+Bandwidth: 125.189096 GB/s
+
+
+
+block: 1 x 32
+milliseconds: 4.449888
+Bandwidth: 120.648176 GB/s 
+
+block: 2 x 32
+milliseconds: 4.445312
+Bandwidth: 120.772376 GB/s 
+
+block: 4 x 32
+milliseconds: 4.362112
+Bandwidth: 123.075912 GB/s
+Passed. 
+
+block: 8 x 32
+milliseconds: 4.318368
+Bandwidth: 124.322640 GB/s 
+
+block: 16 x 32
+milliseconds: 4.434080
+Bandwidth: 121.078304 GB/s
+
+
+
+block: 1 x 64
+milliseconds: 4.060192
+Bandwidth: 132.227960 GB/s 
+
+block: 2 x 64
+milliseconds: 4.171136
+Bandwidth: 128.710960 GB/s 
+
+block: 4 x 64
+milliseconds: 4.301504
+Bandwidth: 124.810040 GB/s 
+
+block: 8 x 64
+milliseconds: 4.247456
+Bandwidth: 126.398224 GB/s 
+
+block: 16 x 64
+milliseconds: 4.135424
+Bandwidth: 129.822456 GB/s 
