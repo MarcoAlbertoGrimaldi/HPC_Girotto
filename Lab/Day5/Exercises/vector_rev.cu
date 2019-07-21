@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#define N (512*512)
+#define N 1024
 #define THREAD_PER_BLOCK 64
 
 __global__ void rev( int *a, int *b) {
@@ -29,9 +29,9 @@ int main( void ) {
     a = (int*)malloc( size ); 
     b = (int*)malloc( size );
     c = (int*)malloc( size );
-
     random_ints( a, N ); 
     random_ints( b, N );
+
     // copy inputs to device
    cudaMemcpy( dev_a, a, size, cudaMemcpyHostToDevice );
    cudaMemcpy( dev_b, b, size, cudaMemcpyHostToDevice );
@@ -50,7 +50,7 @@ int main( void ) {
 	    }
     }
 
-    if(i==N-1) {
+    if(i==N) {
 	   printf("correct!\n");
     }    
 
