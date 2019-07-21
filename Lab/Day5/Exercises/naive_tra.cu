@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-#define N 2048*4
-#define BLOCK_COLUMNS 8
-#define BLOCK_ROWS 8
+#define N 2048
+#define BLOCK_COLUMNS 32
+#define BLOCK_ROWS 32
 
 __global__ void transpose_naive(float *dev_out, const float *dev_in)
 {
     int x = blockIdx.x * BLOCK_COLUMNS + threadIdx.x;
     int y = blockIdx.y * BLOCK_ROWS + threadIdx.y;
-
-    dev_out[x*N + (y)] = dev_in[(y)*N + x];
+ 
+    dev_out[x*N + y] = dev_in[y*N + x];
 }
 
 int main(){
