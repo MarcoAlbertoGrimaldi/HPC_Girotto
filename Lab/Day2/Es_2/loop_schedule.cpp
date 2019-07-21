@@ -21,79 +21,70 @@ void print_usage( int * a, int N, int nthreads ) {
 
 int main() {
 
-  const int N = 250;
-  int a[N];
-  int thread_id = 0;
+    const int N = 120;
+    int a[N];
+    int nthreads;
 
-  #pragma omp parallel
-  {
-    int nthreads = omp_get_num_threads();
-    thread_id = omp_get_thread_num();
+    #pragma omp parallel
+    {
+        int thread_id = omp_get_thread_num();
 
-    //Static
+        #pragma omp single
+	    {
+	        nthreads = omp_get_num_threads();
+	    }
+        //Static
 
-    #pragma omp for schedule(static)
-        for(int i = 0; i < N; ++i) {
-            a[i] = thread_id;
-        }
+        #pragma omp for schedule(static)
+            for(int i = 0; i < N; ++i) {
+                a[i] = thread_id;
+            }
 
-    #pragma omp barrier
+        #pragma omp single
+        print_usage(a, N, nthreads);    
+        
+        #pragma omp for schedule(static,1)
+            for(int i = 0; i < N; ++i) {
+                a[i] = thread_id;
+            }
 
-    #pragma omp master
-    print_usage(a, N, nthreads);    
-    
-    #pragma omp for schedule(static,1)
-        for(int i = 0; i < N; ++i) {
-            a[i] = thread_id;
-        }
+        #pragma omp single
+        print_usage(a, N, nthreads);
 
-    #pragma omp barrier
+        #pragma omp for schedule(static,10)
+            for(int i = 0; i < N; ++i) {
+                a[i] = thread_id;
+            }
 
-    #pragma omp master
-    print_usage(a, N, nthreads);
+        #pragma omp single
+        print_usage(a, N, nthreads);
 
-    #pragma omp for schedule(static,10)
-        for(int i = 0; i < N; ++i) {
-            a[i] = thread_id;
-        }
+        //Dynamic
 
-    #pragma omp barrier
+        #pragma omp for schedule(dynamic)
+            for(int i = 0; i < N; ++i) {
+                a[i] = thread_id;
+            }
 
-    #pragma omp master
-    print_usage(a, N, nthreads);
+        #pragma omp single
+        print_usage(a, N, nthreads);    
 
-    //Dynamic
+        #pragma omp for schedule(dynamic,1)
+            for(int i = 0; i < N; ++i) {
+                a[i] = thread_id;
+            }
 
-    #pragma omp for schedule(dynamic)
-        for(int i = 0; i < N; ++i) {
-            a[i] = thread_id;
-        }
+        #pragma omp single
+        print_usage(a, N, nthreads);
 
-    #pragma omp barrier
+        #pragma omp for schedule(dynamic,10)
+            for(int i = 0; i < N; ++i) {
+                a[i] = thread_id;
+            }
 
-    #pragma omp master
-    print_usage(a, N, nthreads);    
+        #pragma omp single
+        print_usage(a, N, nthreads);
+    }                                                                                                                                                                                                                                                                         
 
-    #pragma omp for schedule(dynamic,1)
-        for(int i = 0; i < N; ++i) {
-            a[i] = thread_id;
-        }
-
-    #pragma omp barrier
-
-    #pragma omp master
-    print_usage(a, N, nthreads);
-
-    #pragma omp for schedule(dynamic,10)
-        for(int i = 0; i < N; ++i) {
-            a[i] = thread_id;
-        }
-
-    #pragma omp barrier
-
-    #pragma omp master
-    print_usage(a, N, nthreads);
-  }                                                                                                                                                                                                                                                                         
-
-return 0;
-}
+    return 0;
+    }
