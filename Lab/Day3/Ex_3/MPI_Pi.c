@@ -37,14 +37,18 @@ int main(){
     MPI_Reduce(&approx, &res, 1, MPI_DOUBLE, MPI_SUM, npes-1, MPI_COMM_WORLD);
 
     if(rank == npes-1){
-        MPI_Send(&res, 1, MPI_DOUBLE, 0, 101, MPI_COMM_WORLD);
         fprintf( stderr, "Sending %f to process 0... \n", res);
+        MPI_Send(&res, 1, MPI_DOUBLE, 0, 101, MPI_COMM_WORLD);
+        fprintf( stderr, "Sending %f to process 0  complete. \n", res);        
     }
 
+    MPI_Barrier(MPI_COMM_WORLD);
+
     if(rank == 0){
-        fprintf( stderr, "Waiting from process %i... \n", npes-1);
+        fprintf( stderr, "Reciving from process %i... \n", npes-1);
         MPI_Recv(&res, 1, MPI_DOUBLE, npes-1, 101, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         res = res * 4 * h;
+        fprintf( stderr, "Reciving from process %i complete. \n", npes-1);
         fprintf( stderr, "Done in %f seconds, pi approx is: %f.\n", stop-start, res);
     }
 
